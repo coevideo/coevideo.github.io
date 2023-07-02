@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+.top {
+	height: 60px;
+	background-color: #000000;
+	position: relative;
+	transition: background-color 0.4s;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.logo img {
+	width: 50px;
+	height: 50px;
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+
+.logo h1 {
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+}
+
+.top ul {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.top ul li {
+	display: inline-block;
+}
+
+.top ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 15px;
+	transition: 0.4s;
+}
+
+.top ul li a:hover {
+	border-bottom: 3px dotted #fff;
+}
+
+.mark {
+	height: 350px;
+	background-color: #000000;
+	position: relative;
+	transition: background-color 0.4s;
+}
+
+.mark .mark-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.mark span {
+	display: inline-block;
+	width: 40px;
+	height: 80px;
+}
+
+.red {
+	background-color: #e71f19;
+}
+
+.green {
+	background-color: #69b82d;
+	margin: 0 80px;
+}
+
+.blue {
+	background-color: #16499d;
+}
+
+
+
+.uniqueWorkDisplay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0px;
+	background-color: #fff;
+	transition: background-color 0.4s;
+}
+
+.uniqueWorkImg {
+	width: 500px;
+	height: 300px;
+	border-radius: 8px;
+	background-color: #f1f1f1;
+	border: 5px solid #ffffff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+.uniqueWorkDescription {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+	gap: 20px;
+}
+
+.uniqueTitle {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 5px;
+}
+
+.uniqueSubtitle {
+	font-size: 18px;
+	color: #666666;
+	margin-bottom: 10px;
+}
+
+.uniqueButton {
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #000;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.uniqueButton:hover {
+	background-color: #555555;
+}
+
+
+
+.work-title {
+	text-align: center;
+	margin: 20px 0px;
+	font-size: 48px;
+	color: #333;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+	background-color: #f5f5f5;
+	padding: 20px;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+	margin: 20px;
+	line-height: 1.5;
+	color: #333;
+}
+
+.about-title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.about-description {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+
+
+
+footer {
+	background-color: #000000;
+	color: #fff;
+	padding: 20px;
+	transition: background-color 0.4s;
+}
+
+.footer-links {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.footer-link a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-link a:hover {
+	text-decoration: underline;
+}
+
+.footer-info {
+	text-align: center;
+}
+
+.social-icons {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.social-icon {
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+}
+@media (max-width: 1000px) {
+	
+	.top {
+			height: 50px;
+		}
+	
+		.logo img {
+			width: 40px;
+			height: 40px;
+			padding: 5px;
+		}
+	
+		.logo h1 {
+			font-size: 16px;
+		}
+	
+		.top ul {
+			top: 40%;
+		}
+	
+		.top ul li a {
+			font-size: 14px;
+			margin: 0 10px;
+		}
+	
+		.mark {
+			height: 250px;
+		}
+	
+		.mark .mark-box {
+			top: 40%;
+		}
+		
+			.mark span {
+				width: 20px;
+				height: 40px;
+			}
+		
+			.red {
+				background-color: #e71f19;
+			}
+		
+			.green {
+				background-color: #69b82d;
+				margin: 0 40px;
+			}
+		
+			.blue {
+				background-color: #16499d;
+			}
+	
+.uniqueWorkDisplay {
+		padding: 10px;
+	}
+	
+	.uniqueWorkImg {
+		width: 100%;
+		height: auto;
+		border-radius: 8px;
+	}
+
+	.uniqueWorkDescription {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin-top: 10px;
+		gap: 10px;
+	}
+
+	.uniqueTitle {
+		font-size: 20px;
+	}
+
+	.uniqueSubtitle {
+		font-size: 16px;
+	}
+
+	.uniqueButton {
+		font-size: 14px;
+		padding: 8px 16px;
+		border-radius: 16px;
+	}
+	
+}
