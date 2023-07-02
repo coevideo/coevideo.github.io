@@ -248,12 +248,15 @@ footer {
 		}
 	
 		.top ul {
-			top: 40%;
+			position: absolute;
+			top: 50%;
+			right: 0px;
+			transform: translate(-0%,-50%);
 		}
 	
 		.top ul li a {
 			font-size: 14px;
-			margin: 0 10px;
+			margin: 0 5px;
 		}
 	
 		.mark {
